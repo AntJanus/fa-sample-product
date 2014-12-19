@@ -1,0 +1,45 @@
+---
+title: Dashboard
+name: dashboard
+url: /dashboard
+---
+<div class="hero-dash">
+    <h2>Dashboard</h2>
+</div>
+
+<a href="#" zf-notify="dash-notification" title="Analytics Reload" content="Refresh Done" class="button alert"><img zf-iconic data-src="assets/img/iconic/reload.svg" class="iconic-md"></a>
+<zf-action-sheet>
+    <zf-as-button>
+        <a href="#" class="button success">
+            <img zf-iconic data-src="assets/img/iconic/cog.svg" class="iconic-md" />
+        </a>
+    </zf-as-button>
+    <zf-as-content position="bottom">
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a ui-sref="home">Logout</a></li>
+        </ul>
+    </zf-as-content>
+</zf-action-sheet>
+
+<zf-tabs>
+    <zf-tab title="Main Site">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend a ligula ut commodo. Phasellus placerat volutpat bibendum. Phasellus aliquam imperdiet urna ac tristique. Mauris tincidunt orci vitae suscipit hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam blandit vestibulum justo vel tincidunt. Ut sit amet ipsum a ipsum porttitor pharetra vel sit amet libero. Integer porta dignissim urna, ac egestas nisl fermentum vel. Mauris non leo dolor. In venenatis est velit, non placerat orci dictum et. Quisque consequat sapien sed sem laoreet, aliquam luctus erat sodales. In placerat, dolor vel dapibus maximus, nisl sapien aliquam ipsum, ac commodo nisl magna nec velit. In varius condimentum ullamcorper. Donec consectetur sem nec ante semper venenatis. Cras ut accumsan purus, ut fringilla quam. Maecenas eros ipsum, viverra non ligula tincidunt, imperdiet vestibulum metus.
+        </p>
+    </zf-tab>
+    <zf-tab title="Secondary Site">
+        <p>
+        Duis tempus sapien nibh, eu venenatis metus congue eu. Maecenas id hendrerit nisi, non laoreet nisl. Nunc ultricies odio et orci tempor bibendum in sodales justo. Nunc sagittis eleifend aliquet. Aliquam tempor urna pulvinar magna maximus tristique. Maecenas congue vitae velit in mollis. Donec ornare nisl vitae metus convallis, sit amet feugiat erat mattis. Aenean id risus ac ipsum volutpat tristique. Vestibulum vitae nisi ac urna fermentum sollicitudin eu eu diam. Mauris velit massa, molestie at metus non, maximus finibus libero.
+        </p>
+
+    </zf-tab>
+    <zf-tab title="Aggregate">
+        <p>
+        Aenean ut arcu massa. Donec non nunc non metus dignissim ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus nunc sem, rutrum vitae laoreet maximus, aliquam vitae ipsum. Aliquam dignissim nec orci et sodales. Quisque sed orci vitae leo dignissim tristique quis eget ligula. Suspendisse non sem non ex commodo aliquet sed non lacus. Quisque urna ex, viverra a pretium nec, convallis nec turpis. Nulla volutpat eu nibh vel lacinia. Sed ex urna, finibus et posuere id, molestie sed nisl. Vestibulum at neque in nibh egestas egestas eget vel orci. In vehicula id felis a scelerisque. Proin iaculis felis pretium, semper mi quis, scelerisque ex. Nunc vel massa vel orci porta sollicitudin eu vel nisi.
+        </p>
+    </zf-tab>
+</zf-tabs>
+
+<zf-notification-set id="dash-notification"></zf-notification-set>

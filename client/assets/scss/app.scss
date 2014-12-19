@@ -1,0 +1,38 @@
+@import "settings";
+@import "foundation";
+
+.price-bgr {
+    height: 150px;
+    background-image: url('/assets/images/starfield.jpg');
+}
+
+.bgr {
+
+
+    &-left {
+        background-position: left center;
+    }
+
+    &-right {
+        background-position: right center;
+    }
+
+    &-center {
+        background-position: center center;
+    }
+}
+
+.feature-list {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hero-dash {
+    padding: 15px 25px;
+    background-image: url('/assets/images/starfield.jpg');
+    margin-bottom: 15px;
+
+    h2 {
+        color: #fff;
+    }
+}

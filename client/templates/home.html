@@ -1,0 +1,51 @@
+---
+name: home
+url: /
+title: Home
+cards:
+    -
+        name: basic
+        price: 9
+        bgr: left
+        color: dark
+    -
+        name: advanced
+        price: 15
+        bgr: center
+        color: alert
+    -
+        name: entreprise
+        price: 200
+        bgr: right
+        color: dark
+---
+
+<h1>Star Stream Analytics</h1>
+
+<div class="grid-block medium-up-3">
+    <div class="grid-content" ng-repeat="card in vars.cards">
+        <div class="card {{ card.color }}">
+            <div class="card-section price-bgr bgr-{{ card.bgr }}"></div>
+            <div class="card-divider">
+                {{ card.name }} package - ${{ card.price }}/month
+            </div>
+            <div class="card-section">
+                <p>This is our {{ card.name }} package. Get it because it's awesome</p>
+                <section class="block-list feature-list">
+                    <header>Features</header>
+                    <ul>
+                        <li>Test 1</li>
+                        <li>Test 1</li>
+                        <li>Test 1</li>
+                        <li>Test 1</li>
+                        <li>Test 1</li>
+                    </ul>
+                </section>
+                <p class="text-center">
+                    <a href="#" class="button primary" zf-open="signup-modal">Sign up!</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
